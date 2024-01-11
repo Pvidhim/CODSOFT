@@ -1,0 +1,86 @@
+
+ body { font-family: Arial, sans-serif ; margin: 0; padding: 0;color:white; }
+ header { display:flex;
+    background-color: #b4cbf5;
+     color: white;
+    text-align: center; 
+    padding: 1rem; 
+    width:100%; 
+    height:50px; }
+ header .last{position: right;}
+header button{height:50px; width:auto ;padding:0;}
+header button img{ height:40px; width:30px;}
+header .contact{margin-left:300px; text-align: center;}
+header .Last{margin-left:300px;transform: translateX(-100%);}
+ nav ul { display: flex; justify-content: center; list-style-type: none; padding: 0; }
+ nav li { margin: 0 1rem; } 
+ nav a { color: white; text-decoration: none; }
+ nav li a:hover {
+    background-color: #eaf0df;
+    color: #000;
+}
+.about{
+    background-color: rgb(165, 205, 245);
+    color:navy;
+}
+.about h2{
+    text-align: center;
+}
+.about h4{
+    text-align: center;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.head{
+    text-align: center;
+}
+
+ .services {  padding: 2rem; text-align: center; }
+ .services ul { display: flex;list-style-type: none; gap:10rem;justify-content:center; }
+ .services li { display: flex;margin: 1rem 0; }
+ .tools{display:flex; justify-content:center;gap:3rem;}
+ footer { background-color: #b4cbf5; color: white; text-align: center; padding: 1rem; }
+ .container {
+    display: flex;
+    justify-content: space-around;
+   }
+.image-wrapper {
+    width: 30%;
+    text-align: center;
+   }
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+   }
+.about-image{
+    display:flex;
+    align-items: center;
+    text-align: left;
+
+
+
+}
+.about-image img{
+    width:20%;
+    height:auto;
+    margin-right: 20px;
+}
+.about-image p{
+    text-align: justify;
+
+}
+
+
+body {
+    background-image : url("https://www.apiscene.io/wp-content/uploads/2019/11/stock-image-23453022-xl-2015-e1574125047612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
